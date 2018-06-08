@@ -131,7 +131,7 @@ Deploy a S/4HANA Hybris Billing Environment (4xApp, 1xDB)</p>
 		<td>256GB</td>
 		<td>1xP4 (32GB), 1xP4 (32GB)<br>1xP10 (128GB), 1xP20 (512GB), 1xP10 (128GB), 1xP6 (64GB)</td>
 	</tr>
-	<tr style="vertical-align:top">
+	<tr>
 		<td>DB - S/4HANA Hybris Billing</td>
 		<td>E32s_v3</td>
 		<td>256GB</td>
@@ -140,6 +140,6 @@ Deploy a S/4HANA Hybris Billing Environment (4xApp, 1xDB)</p>
 </table>
 <p>
 	<span>
-		<img style="height:2150px; width:4385px" src="templatedesign.png" />
+		<img src="templatedesign.png" />
 	</span>
 </p>
