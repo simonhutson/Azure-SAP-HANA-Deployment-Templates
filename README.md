@@ -1,19 +1,3 @@
-<style>
-	.pic{
-		width:200px;
-		height:120px;
-	}
-	.zoom{
-		position: absolute;
-		width:0px;
-		-webkit-transition:width 0.3s linear 0s;
-		transition:width 0.3s linear 0s;
-		z-index:10;
-	}
-	.pic:hover + .zoom{
-		width:400px;
-	}
-</style>
 <h1>Azure SAP HANA Deployment Template</h1>
 <p>This template takes a minimum amount of parameters and deploys one or more VMs, customized for use with 3-tier SAP HANA, using a variety of custom and gallery operating system images. Each VM is configured with two NICs, each with multiple IP addresses.</p>
 <p><a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fsimonhutson%2FAzure-SAP-HANA-Deployment-Templates%2Fmaster%2Fazuredeploy.single.json" target="_blank">
@@ -154,4 +138,8 @@ Deploy a S/4HANA Hybris Billing Environment (4xApp, 1xDB)</p>
 		<td>1xP4 (32GB), 1xP4 (32GB)<br>1xP10 (128GB), 1xP20 (512GB), 1xP10 (128GB), 1xP6 (64GB)<br>1xP10 (128GB), 1xP20 (512GB), 1xP10 (128GB), 1xP6 (64GB)<br>1xP10 (128GB), 1xP20 (512GB), 1xP10 (128GB), 1xP6 (64GB)</td>
 	</tr>
 </table>
-<p><img src="templatedesign.png" /></p>
+<p>
+	<span>
+		<img style="height:100px; width:100px" src="templatedesign.png" />
+	</span>
+</p>
