@@ -131,11 +131,11 @@ Deploy a S/4HANA Hybris Billing Environment (4xApp, 1xDB)</p>
 		<td>256GB</td>
 		<td>1xP4 (32GB), 1xP4 (32GB)<br>1xP10 (128GB), 1xP20 (512GB), 1xP10 (128GB), 1xP6 (64GB)</td>
 	</tr>
-	<tr>
-		<td style="vertical-align:top">DB - S/4HANA Hybris Billing</td>
-		<td style="vertical-align:top">E32s_v3</td>
-		<td style="vertical-align:top">256GB</td>
-		<td style="vertical-align:top">1xP4 (32GB), 1xP4 (32GB)<br>1xP10 (128GB), 1xP20 (512GB), 1xP10 (128GB), 1xP6 (64GB)<br>1xP10 (128GB), 1xP20 (512GB), 1xP10 (128GB), 1xP6 (64GB)<br>1xP10 (128GB), 1xP20 (512GB), 1xP10 (128GB), 1xP6 (64GB)</td>
+	<tr style="vertical-align:top">
+		<td>DB - S/4HANA Hybris Billing</td>
+		<td>E32s_v3</td>
+		<td>256GB</td>
+		<td>1xP4 (32GB), 1xP4 (32GB)<br>1xP10 (128GB), 1xP20 (512GB), 1xP10 (128GB), 1xP6 (64GB)<br>1xP10 (128GB), 1xP20 (512GB), 1xP10 (128GB), 1xP6 (64GB)<br>1xP10 (128GB), 1xP20 (512GB), 1xP10 (128GB), 1xP6 (64GB)</td>
 	</tr>
 </table>
 <p>
