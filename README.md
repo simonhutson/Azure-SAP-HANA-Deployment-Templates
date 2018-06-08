@@ -140,6 +140,6 @@ Deploy a S/4HANA Hybris Billing Environment (4xApp, 1xDB)</p>
 </table>
 <p>
 	<span>
-		<img style="height:100px; width:100px" src="templatedesign.png" />
+		<img style="height:2150px; width:4385px" src="templatedesign.png" />
 	</span>
 </p>
