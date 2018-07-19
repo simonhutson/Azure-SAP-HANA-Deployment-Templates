@@ -93,7 +93,7 @@
                         "value": "[parameters('vmDeploymentNumber')]"
                     },
                     "vmInstanceNumber": {
-                        "value": "8"
+                        "value": "9"
                     },
                     "vmImage": {
                         "value": "[parameters('vmImage')]"
@@ -138,7 +138,7 @@
                         "value": "[parameters('vmDeploymentNumber')]"
                     },
                     "vmInstanceNumber": {
-                        "value": "8"
+                        "value": "9"
                     },
                     "vmImage": {
                         "value": "[parameters('vmImage')]"
