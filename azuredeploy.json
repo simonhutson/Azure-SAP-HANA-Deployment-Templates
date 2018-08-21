@@ -274,29 +274,6 @@
         {
             "type": "Microsoft.Resources/deployments",
             "apiVersion": "2017-05-10",
-            "name": "[variables('settings.customscriptextension.templatename')]",
-            "dependsOn": [
-                "[resourceId('Microsoft.Resources/deployments/', variables('validate.templatename'))]"
-            ],
-            "properties": {
-                "mode": "Incremental",
-                "templateLink": {
-                    "uri": "[variables('settings.customscriptextension.templateuri')]",
-                    "contentVersion": "1.0.0.0"
-                },
-                "debugSetting": {
-                    "detailLevel": "requestContent, responseContent"
-                },
-                "parameters": {
-                    "params": {
-                        "value": "[reference(variables('validate.templatename')).outputs.output.value]"
-                    }
-                }
-            }
-        },
-        {
-            "type": "Microsoft.Resources/deployments",
-            "apiVersion": "2017-05-10",
             "name": "[variables('deploy.nic1.templatename')]",
             "dependsOn": [
                 "[resourceId('Microsoft.Resources/deployments/', variables('settings.tags.templatename'))]",
